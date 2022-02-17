@@ -1,2 +1,2 @@
-# java-exceptions-NelioAlves-Udemy
-Exception Handling in Java - Practice
+# Part of the Complete Java Course by prof Dr Nelio Alves on Udemy.
+Exception Handling in Java - Learning and Practicing
