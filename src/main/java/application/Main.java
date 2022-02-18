@@ -16,9 +16,9 @@ public class Main {
 
         System.out.print("Room number: ");
         int number = scan.nextInt();
-        System.out.print("Check-in date (dd/yyyy): ");
+        System.out.print("Check-in date (dd/MM/yyyy): ");
         Date checkIn = sdf.parse(scan.next());
-        System.out.print("Check-out date (dd/yyyy): ");
+        System.out.print("Check-out date (dd/MM/yyyy): ");
         Date checkOut = sdf.parse(scan.next());
 
         if(!checkOut.after(checkIn)) {
@@ -28,9 +28,9 @@ public class Main {
             System.out.println("Reservation: " + reservation);
 
             System.out.println("\nEnter data to update the reservation: ");
-            System.out.print("Check-in date (dd/yyyy): ");
+            System.out.print("Check-in date (dd/MM/yyyy): ");
             checkIn = sdf.parse(scan.next());
-            System.out.print("Check-out date (dd/yyyy): ");
+            System.out.print("Check-out date (dd/MM/yyyy): ");
             checkOut = sdf.parse(scan.next());
 
             Date now = new Date();
